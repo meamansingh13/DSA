@@ -1,0 +1,17 @@
+def rev(num):
+  neg = 1
+  if (num < 0):
+    neg = -1
+    num = abs(num)
+    
+  temp = 0
+  while(num > 0):
+    rem = num % 10
+    temp = temp * 10 + rem
+    num = num // 10
+    
+  
+  temp = temp * neg
+  return temp
+  
+print(rev(-123))
