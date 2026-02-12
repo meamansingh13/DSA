@@ -1,3 +1,14 @@
+#📘 Standard Problem Statement
+
+# Question:
+# Write a Python function that takes an integer as input and returns the reverse of the number.
+
+# If the number is negative, the reversed number should also be negative.
+
+# Do not use built-in string reversal methods.
+
+# Use arithmetic operations to reverse the digits.
+
 def rev(num):
   neg = 1
   if (num < 0):
